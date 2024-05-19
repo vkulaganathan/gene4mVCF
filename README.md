@@ -2,4 +2,4 @@
 A tool to extract variants specific to a Gene of Interest (GOI)
 
 **Dependencies**
-<br>bcftools, tabix</br>
+<br>bcftools, bgzip, tabix</br>
