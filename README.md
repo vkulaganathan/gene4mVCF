@@ -10,7 +10,7 @@ You can install `gene4mVCF` via pip:
 `$ pip install gene4mVCF`
 
 ## Usage
-usage: `$ python3 gene4mVCF [-h] -i INPUT -g GENE`
+usage: `$ gene4mVCF [-h] -i INPUT -g GENE`
 
 Extract variant entries for a specific gene or list of genes from a VCF file.
 
@@ -23,10 +23,10 @@ optional arguments:
 
 ## Examples
 Extract variants for a single gene:
-`$ python3 gene4mVCF -i input.vcf.gz -g EGFR`
+`$ gene4mVCF -i input.vcf.gz -g EGFR`
 
 Extract variants for multiple genes listed in a file:
-`$ python3 gene4mVCF -i input.vcf.gz -g genes.txt`
+`$ gene4mVCF -i input.vcf.gz -g genes.txt`
 
 For more options and details, refer to the help message.
 
