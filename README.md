@@ -7,7 +7,7 @@
 
 You can install `gene4mVCF` via pip:
 
-`$ pip install gene4VCF`
+`$ pip install gene4mVCF`
 
 ## Usage
 usage: `$ python3 gene4mVCF [-h] -i INPUT -g GENE`
