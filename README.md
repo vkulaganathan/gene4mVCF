@@ -23,7 +23,7 @@ optional arguments:
 
 ## Examples
 Extract variants for a single gene:
-`$ python3 gene4mVCF -i input.vcf -g ENSG00000168878`
+`$ python3 gene4mVCF -i input.vcf -g EGFR`
 
 Extract variants for multiple genes listed in a file:
 `$ python3 gene4mVCF -i input.vcf -g genes.txt`
