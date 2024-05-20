@@ -9,6 +9,8 @@ You can install `gene4mVCF` via pip:
 
 `$ pip install gene4mVCF`
 
+After installation please download the four required bed files and place inside the folder /gene4mVCF 
+
 ## Usage
 usage: `$ gene4mVCF [-h] -i INPUT -g GENE`
 
@@ -22,8 +24,11 @@ optional arguments:
                         Gene name, Ensembl gene ID, or path to a gene list file
 
 ## Examples
-Extract variants for a single gene:
+Extract variants for a single gene using gene name:
 `$ gene4mVCF -i input.vcf.gz -g EGFR`
+
+Extract variants for a single using ensembl gene id:
+`$ gene4mVCF -i input.vcf.gz -g ENSG00000168878`
 
 Extract variants for multiple genes listed in a file:
 `$ gene4mVCF -i input.vcf.gz -g genes.txt`
@@ -31,11 +36,12 @@ Extract variants for multiple genes listed in a file:
 For more options and details, refer to the help message.
 
 ## Support
-For any issues or inquiries, please open an issue on this repository.
+For any issues or inquiries, please open an issue on the GitHub repository https://github.com/VJ-Ulaganathan/gene4mVCF
+
 
 ## Installation
 
-Easiest way is via via pip:
+Installation via pip:
 
 `$ pip install gene4mVCF`
 
