@@ -17,16 +17,16 @@ Extract variant entries for a specific gene or list of genes from a VCF file.
 optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
-                        Input VCF file
+                        Input bgzip compressed VCF file
   -g GENES, --genes GENES
                         Gene name, Ensembl gene ID, or path to a gene list file
 
 ## Examples
 Extract variants for a single gene:
-`$ python3 gene4mVCF -i input.vcf -g EGFR`
+`$ python3 gene4mVCF -i input.vcf.gz -g EGFR`
 
 Extract variants for multiple genes listed in a file:
-`$ python3 gene4mVCF -i input.vcf -g genes.txt`
+`$ python3 gene4mVCF -i input.vcf.gz -g genes.txt`
 
 For more options and details, refer to the help message.
 
