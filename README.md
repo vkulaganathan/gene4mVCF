@@ -9,7 +9,11 @@ You can install `gene4mVCF` via pip:
 
 `$ pip install gene4mVCF`
 
-After installation please download the four required bed files and place inside the folder /gene4mVCF 
+After installation please download the four required bed files and place inside the folder /gene4mVCF
+<br>'hg19.ensGene.bed' --> https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/genes/hg19.ensGene.gtf.gz </br>
+<br>'hg19.ncbiRefSeq.bed' --> https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/genes/hg19.ncbiRefSeq.gtf.gz </br>
+<br>'hg38.ensGene.bed' --> https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ensGene.gtf.gz </br>
+<br>'hg38.ncbiRefSeq.bed'--> https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz </br>
 
 ## Usage
 usage: `$ gene4mVCF [-h] -i INPUT -g GENE`
@@ -44,6 +48,5 @@ For any issues or inquiries, please open an issue on the GitHub repository https
 Installation via pip:
 
 `$ pip install gene4mVCF`
-
 
 
