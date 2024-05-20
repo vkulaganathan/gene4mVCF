@@ -41,7 +41,7 @@ For more options and details, refer to the help message.
 
 **Example showing extraction of variants of ACTB gene**
 
-<br>Output file in the tab-separated format</br>
+<br>input command</br>
 ![Example Image](images/input.png)
 
 <br>Output file in the tab-separated format</br>
