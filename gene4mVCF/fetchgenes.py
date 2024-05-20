@@ -1,3 +1,6 @@
+##code for extracting variants specific to a gene or a list of genes of interest from the standard VCF4.0 format.
+##If you found our code useful, please consider following me on https://x.com/VK_Ulaganathan
+
 import argparse
 import subprocess
 import os
