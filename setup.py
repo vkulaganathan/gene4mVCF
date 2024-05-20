@@ -19,7 +19,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Pr (France). Dr. rer. nat. Vijay K. ULAGANATHAN',
-    author_email='vijay-kumar.ulaganathan@uni-tuebingen.de',
+    author_email=' ',
     url='https://github.com/VJ-Ulaganathan/gene4mVCF',
     packages=find_packages(),
     package_data={'gene4mVCF': ['hg19.ensGene.bed', 'hg19.ncbiRefSeq.bed', 'hg38.ensGene.bed', 'hg38.ncbiRefSeq.bed']},
