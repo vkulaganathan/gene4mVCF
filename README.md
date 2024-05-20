@@ -31,14 +31,11 @@ Extract variants for multiple genes listed in a file:
 For more options and details, refer to the help message.
 
 ## Support
-For any issues or inquiries, please open an issue on the GitHub repository.
-
-Make sure to replace `https://github.com/VJ-Ulaganathan/gene4mVCF` with your actual GitHub repository URL. You can customize the content further based on your preferences or additional information you want to include.
-
+For any issues or inquiries, please open an issue on this repository.
 
 ## Installation
 
-You can install `gene4mVCF` via pip:
+Easiest way is via via pip:
 
 `$ pip install gene4mVCF`
 
