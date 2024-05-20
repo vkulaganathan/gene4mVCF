@@ -39,6 +39,15 @@ Extract variants for multiple genes listed in a file:
 
 For more options and details, refer to the help message.
 
+**Example showing extraction of variants of ACTB gene**
+
+<br>Output file in the tab-separated format</br>
+![Example Image](images/input.png)
+
+<br>Output file in the tab-separated format</br>
+![Example Image](images/ACTB.png)
+
+
 ## Support
 For any issues or inquiries, please open an issue on the GitHub repository https://github.com/VJ-Ulaganathan/gene4mVCF
 
