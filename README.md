@@ -16,17 +16,17 @@ After installation please download the four required bed files and place inside 
 <br>'hg38.ncbiRefSeq.bed'--> https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz </br>
 
 ## Usage
-usage: `$ gene4mVCF [-h] -i INPUT -g GENE`
-
 Extract variant entries for a specific gene or list of genes from a VCF file.
+<br>usage: `$ gene4mVCF [-h] -i INPUT -g GENE`</br>
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        Input bgzip compressed VCF file
-  -g GENES, --genes GENES
-                        Gene name, Ensembl gene ID, or path to a gene list file
+Needed arguments:
+ <br>`-i INPUT, --input INPUT is bgzip compressed VCF file`</br>
+ <br>`-g GENE, --genes GENE is either a Gene name, Ensembl gene ID, or path to a genelist file`</br>
 
+
+<br>optional arguments:</br>
+   <br>`-h, --help  show this help message and exit`</br>
+  
 ## Examples
 Extract variants for a single gene using gene name:
 `$ gene4mVCF -i input.vcf.gz -g EGFR`
