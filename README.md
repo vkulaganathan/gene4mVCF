@@ -21,7 +21,7 @@ Extract variant entries for a specific gene or list of genes from a VCF file.
 
 Needed arguments:
  <br>`-i INPUT, --input INPUT is bgzip compressed VCF file`</br>
- <br>`-g GENE, --genes GENE is either a Gene name, Ensembl gene ID, or path to a genelist file`</br>
+ <br>`-g GENE, --genes GENE is either a Gene name, Ensembl gene ID, or path to a genelist file with *.txt extension`</br>
 
 
 <br>optional arguments:</br>
