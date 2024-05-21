@@ -35,7 +35,7 @@ Extract variants for a single using ensembl gene id:
 `$ gene4mVCF -i input.vcf.gz -g ENSG00000168878`
 
 Extract variants for multiple genes listed in a file:
-`$ gene4mVCF -i input.vcf.gz -g genes.txt`
+`$ gene4mVCF -i input.vcf.gz -g acmg-genes.txt`
 
 For more options and details, refer to the help message.
 
