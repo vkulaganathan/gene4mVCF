@@ -17,15 +17,16 @@ After installation please download the four required bed files and place inside 
 
 ## Usage
 Extract variant entries for a specific gene or list of genes from a VCF file.
-<br>usage: `$ gene4mVCF [-h] -i INPUT -g GENE`</br>
+<br>usage: `$ gene4mVCF [-h] -i INPUT -g GENE [-r REFERENCE]`</br>
 
 Needed arguments:
- <br>`-i INPUT, --input INPUT is bgzip compressed VCF file`</br>
- <br>`-g GENE, --genes GENE is either a Gene name, Ensembl gene ID, or path to a genelist file with *.txt extension`</br>
+ <br>`-i INPUT, --input INPUT, is bgzip compressed VCF file`</br>
+ <br>`-g GENE, --genes GENE, is either a Gene name, Ensembl gene ID, or path to a genelist file with *.txt extension`</br>
 
 
 <br>optional arguments:</br>
-   <br>`-h, --help  show this help message and exit`</br>
+   <br>`-h, --help show this help message and exit`</br>
+   <br>`-r REFERENCE, --ref REFERENCE, is 37 or 38, based on the reference genome used for creating the VCF file`</br>
   
 ## Examples
 Extract variants for a single gene using gene name:
