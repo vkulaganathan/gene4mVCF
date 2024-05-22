@@ -60,3 +60,9 @@ Installation via pip:
 `$ pip install gene4mVCF`
 
 
+
+
+
+<i>current version='1.1.4'</i>
+
+
