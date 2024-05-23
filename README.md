@@ -54,11 +54,7 @@ For more options and details, refer to the help message.
 For any issues or inquiries, please open an issue on the GitHub repository https://github.com/vkulaganathan/gene4mVCF
 
 
-## Installation
 
-Installation via pip:
-
-`$ pip install gene4mVCF`
 
 
 
