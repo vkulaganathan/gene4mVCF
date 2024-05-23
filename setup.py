@@ -14,13 +14,13 @@ if not all(command_exists(cmd) for cmd in required_commands):
 
 setup(
     name='gene4mVCF',
-    version='1.1.1',
+    version='1.1.5',
     description='Description of your package',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Pr (France). Dr. rer. nat. Vijay K. ULAGANATHAN',
     author_email=' ',
-    url='https://github.com/VJ-Ulaganathan/gene4mVCF',
+    url='https://github.com/vkulaganathan/gene4mVCF',
     packages=find_packages(),
     package_data={'gene4mVCF': ['hg19.ensGene.bed', 'hg19.ncbiRefSeq.bed', 'hg38.ensGene.bed', 'hg38.ncbiRefSeq.bed']},
     install_requires=[
