@@ -64,6 +64,6 @@ Installation via pip:
 
 
 
-<i>current version='1.1.4'</i>
+<i>current version='1.1.5'</i>
 
 
