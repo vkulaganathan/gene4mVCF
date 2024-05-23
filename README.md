@@ -51,7 +51,7 @@ For more options and details, refer to the help message.
 
 
 ## Support
-For any issues or inquiries, please open an issue on the GitHub repository https://github.com/VJ-Ulaganathan/gene4mVCF
+For any issues or inquiries, please open an issue on the GitHub repository https://github.com/vkulaganathan/gene4mVCF
 
 
 ## Installation
