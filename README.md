@@ -27,6 +27,7 @@ Needed arguments:
 <br>optional arguments:</br>
    <br>`-h, --help show this help message and exit`</br>
    <br>`-r REFERENCE, --ref REFERENCE, is 37 or 38, based on the reference genome used for creating the VCF file`</br>
+   <br>`-f FEATURE, --feature FEATURE, is feature type(s) to filter for (e.g., exon, CDS, 5UTR, 3UTR, transcript)`</br>
   
 ## Examples
 Extract variants for a single gene using gene name:
